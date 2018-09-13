@@ -42,7 +42,9 @@
 ### Logon/Logoff event difference
 -------------------
 Group A : Windows 2003 and before
+
 Group B : Windows 2008 R2 and Windows 7 , Windows 2012 R2 and Windows 8.1 , Windows 2016 and Windows 10
+
 |Group A event ID|Group B event ID|Content|
 |:---:|:---:|:---|
 |528|4624|帳戶成功登入|
