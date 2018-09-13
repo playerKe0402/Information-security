@@ -7,7 +7,7 @@
 
 * [Linux系統指令](#linux系統指令)
 
-* [lucene 語法](#lucene)
+* [lucene 語法](#lucene-語法)
 
 * [elasticsearch DSL 語法](#elasticsearch)
 
