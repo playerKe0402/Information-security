@@ -11,8 +11,11 @@
 
 * [elasticsearch DSL 語法](#elasticsearch-dsl-語法)
 
-### Windows事件檢視器
-Event Log
+## Windows事件檢視器
+
+開始 → 執行 → 輸入 eventvwr 開啟事件檢視器
+
+### Event Log
 ----------
 |Event ID|Content|Event ID|Content|
 |:------:|:------|:------:|:------|
@@ -26,7 +29,16 @@ Event Log
 |4625|帳戶登入失敗|7036|服務啟動或是關閉|
 |4634|帳戶已經登出|7040|服務啟動模式改變|
 
-### Windows排程管理員
-### Linux系統指令
-### lucene 語法
-### elasticsearch DSL 語法
+### Event ID:4624
+---------------
+|Type|Title|Description|
+|:--:|:----|:----------|
+|2|互動|使用者已登入這部電腦|
+|3|網路|使用者或電腦從網路登入這部電腦|
+|7|解除鎖定|輸入密碼登入使工作站解除鎖定|
+|10|RemoteInteractive|使用者使用[終端機服務]或[遠端桌面]從遠端登入這部電腦|
+
+## Windows排程管理員
+## Linux系統指令
+## lucene 語法
+## elasticsearch DSL 語法
