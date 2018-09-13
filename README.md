@@ -9,7 +9,7 @@
 
 * [lucene 語法](#lucene-語法)
 
-* [elasticsearch DSL 語法](#elasticsearch)
+* [elasticsearch DSL 語法](#elasticsearch-dsl-語法)
 
 1
 
