@@ -7,9 +7,9 @@
 
 * [Linux系統指令](#Linux系統指令)
 
-* [lucene 語法](#lucene 語法)
+* [lucene 語法](#lucene)
 
-* [elasticsearch DSL 語法](#elasticsearch DSL 語法)
+* [elasticsearch DSL 語法](#elasticsearch)
 
 ### Windows事件檢視器
 ### Windows排程管理員
