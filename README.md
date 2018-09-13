@@ -11,27 +11,13 @@
 
 * [elasticsearch DSL 語法](#elasticsearch-dsl-語法)
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
 ### Windows事件檢視器
+Event Log
+| 左对齐 | 居中  | 右对齐 |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 ### Windows排程管理員
 ### Linux系統指令
 ### lucene 語法
