@@ -5,7 +5,7 @@
 
 * [Windows排程管理員](#windows排程管理員)
 
-* [Linux系統指令](#Linux系統指令)
+* [Linux系統指令](#linux系統指令)
 
 * [lucene 語法](#lucene)
 
