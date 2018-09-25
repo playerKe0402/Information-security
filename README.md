@@ -100,6 +100,29 @@ Group B : Windows 2008 R2 and Windows 7 , Windows 2012 R2 and Windows 8.1 , Wind
 
 ## Windows排程管理員
 ## Linux系統指令
+### Linux系統架構
+|Path|Description|
+|:----:|:----|
+|/bin|放置一般使用者可以操作的指令，路徑為/usr/bin|
+|/sbin|放置系統管理員可以操作的指令，路徑為/usr/sbin|
+|/boot|放置開機相關檔案|
+|/dev|放置 device 裝置檔案|
+|/etc|放置系統檔案|
+|/home|一般帳戶的家目錄|
+|/root|系統管理者的家目錄|
+|/lib|系統函式庫和核心函式庫，路徑為/usr/lib|
+|/lib64|系統64位元的系統函式庫和核心函式庫，路徑為/usr/lib64|
+|/proc|將記憶體內的資料做成檔案類型|
+|/sys|與/proc類似，但主要針對硬體相關參數|
+|/usr|全名為unix software resource縮寫，放置系統相關軟體、服務|
+|/var|全名為 variable，放置一些變數或記錄檔|
+|/tmp|全名為 temporary，放置暫存檔案|
+|/media|放置隨插即用的裝置慣用目錄|
+|/mnt|為管理員/使用者手動掛上安裝（mount）的目錄|
+|/opt|全名為 optional，通常為第三方廠商放置軟體處|
+|/run|系統進行服務軟體運作管理處|
+|/srv|通常是放置開發的服務（service），如：網站服務www等|
+
 ## lucene 語法
 ## elasticsearch DSL 語法
 ## Reference
