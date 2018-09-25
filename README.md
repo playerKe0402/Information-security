@@ -189,7 +189,7 @@ $ mkdir examples
 ----
 |Command|Description|
 |:----:|:----|
-|mv|copy，move (rename) files，移動檔案或是重新命名檔案|
+|mv|copy，move(rename) files，移動檔案或是重新命名檔案|
 
 移動檔案
 例:將README.md移至/examples/目錄下
@@ -217,7 +217,7 @@ $ rm -f examples
 ----
 |Command|Description|
 |:----:|:----|
-|touch|用來更新已存在文件的時間戳記（timestamp）或是新增空白檔案|
+|touch|用來更新已存在文件的時間戳記(timestamp)或是新增空白檔案|
 
 ----
 |Command|Description|
@@ -249,11 +249,19 @@ $ tail -f README.md
 ```
  $ ls -l
  total 220
- drwxr-xr-x  22   root   root   4096   May 4 18:01 .
+ drwxr-xr-x  22   root   root   4096   May 4 18:01 .config
  -rw-r--r--   1   root   root   1864   May 7 15:05 initial-setup-ks.cfg
  ...
 ```
-* 第一欄
+* 第一欄:檔案的類型與權限
+由 10 個字元組成
+** 第一個字元表示檔案型態
+*** - 為檔案，如上表檔名為 initial-setup-ks.cfg
+*** d 為目錄，如上表檔名為 .config
+*** l 為連結檔案(link file)
+*** b 為裝置檔裡面的可供儲存的周邊設備(可隨機存取裝置)
+*** c 為裝置檔裡面的序列埠設備，例如鍵盤、滑鼠(一次性讀取裝置)
+字元 2、3、4 表示檔案擁有者的存取權限。字元 5、6、7 表示檔案擁有者所屬群組成員的存取權限。字元 8、9、10 表示其他使用者的存取權限
 ## lucene 語法
 ## elasticsearch DSL 語法
 ## Reference
