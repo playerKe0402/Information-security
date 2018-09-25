@@ -142,10 +142,19 @@ $ls -l
 $ls -a
 ```
 列出目錄部分資料
+例:列出為.jpg的檔案
 ```
-//列出為.jpg的檔案
 $ls *.jpg
 ```
+|Command|Description|
+|:----:|:----|
+|pwd|print work directory，印出目前工作目錄|
+
+|Command|Description|
+|:----:|:----|
+|cd|change directory，切換至目錄|
+
+
 ## lucene 語法
 ## elasticsearch DSL 語法
 ## Reference
