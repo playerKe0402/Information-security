@@ -131,21 +131,22 @@ Group B : Windows 2008 R2 and Windows 7 , Windows 2012 R2 and Windows 8.1 , Wind
 
 列出目錄基本資料
 ```
-$ls
+$ ls
 ```
 列出目錄詳細資料
 ```
-$ls -l
+$ ls -l
 ```
 列出目錄隱藏資料
 ```
-$ls -a
+$ ls -a
 ```
 列出目錄部分資料
 例:列出為.jpg的檔案
 ```
-$ls *.jpg
+$ ls *.jpg
 ```
+
 |Command|Description|
 |:----:|:----|
 |pwd|print work directory，印出目前工作目錄|
@@ -153,6 +154,35 @@ $ls *.jpg
 |Command|Description|
 |:----:|:----|
 |cd|change directory，切換至目錄|
+
+切換至當前目錄下的bin目錄
+```
+$ cd ./bin
+```
+切換至家目錄
+```
+$ cd ~
+```
+切換至上一層目錄
+```
+$ cd ..
+```
+切換至根目錄
+```
+$ cd /
+```
+
+|Command|Description|
+|:----:|:----|
+|mkdir|make directory，創建新資料夾|
+創建example資料夾
+```
+$ mkdir example
+```
+
+|Command|Description|
+|:----:|:----|
+|cp|copy，複製檔案|
 
 
 ## lucene 語法
