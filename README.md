@@ -243,7 +243,17 @@ $ tail -f README.md
 |:----:|:----|
 |file|檢查檔案類型|
 
-
+### 檔案權限
+----
+檢視檔案權限可以使用 $ ls -l 來查看
+```
+ $ ls -l
+ total 220
+ drwxr-xr-x  22   root   root   4096   May 4 18:01 .
+ -rw-r--r--   1   root   root   1864   May 7 15:05 initial-setup-ks.cfg
+ ...
+```
+* 第一欄
 ## lucene 語法
 ## elasticsearch DSL 語法
 ## Reference
