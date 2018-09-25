@@ -295,7 +295,11 @@ $ tail -f README.md
 
   檔名之前多一個 . ，則代表這個檔案為隱藏檔，如表中的.config
 ----
+修改檔案屬性和權限
 
+* chgrp : 改變檔案所屬群組
+* chown : 改變檔案擁有者
+* chmod : 改變檔案的權限
 
 ## lucene 語法
 ## elasticsearch DSL 語法
