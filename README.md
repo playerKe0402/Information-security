@@ -142,7 +142,7 @@ $ ls -l
 $ ls -a
 ```
 列出目錄部分資料
-例:列出為.jpg的檔案
+例:列出為副檔名為.jpg的檔案
 ```
 $ ls *.jpg
 ```
@@ -155,9 +155,9 @@ $ ls *.jpg
 |:----:|:----|
 |cd|change directory，切換至目錄|
 
-切換至當前目錄下的bin目錄
+切換至當前目錄下的examples目錄
 ```
-$ cd ./bin
+$ cd ./examples
 ```
 切換至家目錄
 ```
@@ -175,15 +175,43 @@ $ cd /
 |Command|Description|
 |:----:|:----|
 |mkdir|make directory，創建新資料夾|
-創建example資料夾
+
+創建examples資料夾
 ```
-$ mkdir example
+$ mkdir examples
 ```
 
 |Command|Description|
 |:----:|:----|
 |cp|copy，複製檔案|
 
+|Command|Description|
+|:----:|:----|
+|mv|copy，move (rename) files，移動檔案或是重新命名檔案|
+
+移動檔案
+例:將README.md移至/examples/目錄下
+```
+$ mv README.md /examples/README.md
+```
+重新命名
+例:將README.md重新命名為README_1
+```
+$ mv README.md README_1.md
+```
+
+|Command|Description|
+|:----:|:----|
+|rm|remove file，刪除檔案|
+
+刪除當前目錄下副檔名為.jpg的檔案
+```
+$ rm *.jpg
+```
+刪除資料夾和所有檔案
+```
+$ rm -f examples
+```
 
 ## lucene 語法
 ## elasticsearch DSL 語法
