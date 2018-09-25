@@ -101,6 +101,7 @@ Group B : Windows 2008 R2 and Windows 7 , Windows 2012 R2 and Windows 8.1 , Wind
 ## Windows排程管理員
 ## Linux系統指令
 ### Linux系統架構
+----
 |Path|Description|
 |:----:|:----|
 |/bin|放置一般使用者可以操作的指令，路徑為/usr/bin|
@@ -122,7 +123,29 @@ Group B : Windows 2008 R2 and Windows 7 , Windows 2012 R2 and Windows 8.1 , Wind
 |/opt|全名為 optional，通常為第三方廠商放置軟體處|
 |/run|系統進行服務軟體運作管理處|
 |/srv|通常是放置開發的服務（service），如：網站服務www等|
+### 檔案與目錄管理指令
+----
+|Command|Description|
+|:----:|:----|
+|ls|查看檔案及子目錄|
 
+列出基本路徑資料
+```
+$ls
+```
+列出詳細資料
+```
+$ls -l
+```
+列出隱藏資料
+```
+$ls -a
+```
+列出部分檔案
+```
+//列出為.jpg的檔案
+$ls *.jpg
+```
 ## lucene 語法
 ## elasticsearch DSL 語法
 ## Reference
