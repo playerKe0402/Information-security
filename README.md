@@ -253,12 +253,12 @@ $ tail -f README.md
  -rw-r--r--   1   root   root   1864   May 7 15:05 initial-setup-ks.cfg
  ...
 ```
-第一欄:檔案的類型與權限
-* 由 10 個字元組成
+* 第一欄:檔案的類型與權限
+由 10 個字元組成
 
   * 第一個字元表示檔案型態
 
-    * - 為檔案，如上表檔名為 initial-setup-ks.cfg
+    * [-] 為檔案，如上表檔名為 initial-setup-ks.cfg
 
     * d 為目錄，如上表檔名為 .config
 
