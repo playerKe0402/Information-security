@@ -210,10 +210,39 @@ $ mv README.md README_1.md
 ```
 $ rm *.jpg
 ```
-刪除資料夾和所有檔案
+刪除examples資料夾和所有檔案
 ```
 $ rm -f examples
 ```
+----
+|Command|Description|
+|:----:|:----|
+|touch|用來更新已存在文件的時間戳記（timestamp）或是新增空白檔案|
+
+----
+|Command|Description|
+|:----:|:----|
+|cat|將文件印出在終端機上|
+
+----
+|Command|Description|
+|:----:|:----|
+|tail|顯示檔案最後幾行內容|
+
+持續顯示更新內容
+```
+$ tail -f README.md
+```
+----
+|Command|Description|
+|:----:|:----|
+|more|將檔案一頁頁印在終端機上|
+
+----
+|Command|Description|
+|:----:|:----|
+|file|檢查檔案類型|
+
 
 ## lucene 語法
 ## elasticsearch DSL 語法
