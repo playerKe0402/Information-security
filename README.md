@@ -146,11 +146,12 @@ $ ls -a
 ```
 $ ls *.jpg
 ```
-
+----
 |Command|Description|
 |:----:|:----|
 |pwd|print work directory，印出目前工作目錄|
 
+----
 |Command|Description|
 |:----:|:----|
 |cd|change directory，切換至目錄|
@@ -171,7 +172,7 @@ $ cd ..
 ```
 $ cd /
 ```
-
+----
 |Command|Description|
 |:----:|:----|
 |mkdir|make directory，創建新資料夾|
@@ -180,11 +181,12 @@ $ cd /
 ```
 $ mkdir examples
 ```
-
+----
 |Command|Description|
 |:----:|:----|
 |cp|copy，複製檔案|
 
+----
 |Command|Description|
 |:----:|:----|
 |mv|copy，move (rename) files，移動檔案或是重新命名檔案|
@@ -199,7 +201,7 @@ $ mv README.md /examples/README.md
 ```
 $ mv README.md README_1.md
 ```
-
+----
 |Command|Description|
 |:----:|:----|
 |rm|remove file，刪除檔案|
