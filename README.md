@@ -337,9 +337,10 @@ $ chmod 770 initial-setup-ks.cfg
 將 initial-setup-ks.cfg 的所有的權限都設定啟用
 ``` 
 $ chmod 777 initial-setup-ks.cfg 
-```  
-
+```
+* 
   * 符號類型改變檔案權限
+   
 ### 系統管理
 ----
 
