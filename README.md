@@ -319,9 +319,24 @@ $ ls -l
   * 數字類型改變檔案權限
     * 可讀取(r，Readable)，用數字 4 表示    
     * 可寫入(w，writable)，用數字 2 表示
-    * 可執行(x，eXecute)，用數字 1 表示
+    * 可執行(x，execute)，用數字 1 表示
     * 無權限(-)，用數字 0 表示
-    
+  將 initial-setup-ks.cfg 的權限改為 -rwxrwx--- ，以數字表示為 :
+  owner = rwx = 4+2+1 = 7
+  
+  group = rwx = 4+2+1 = 7
+  
+  others= --- = 0+0+0 = 0
+  
+  設定權限的變更為770
+``` 
+$ chmod 770 initial-setup-ks.cfg 
+```
+  將 initial-setup-ks.cfg 的所有的權限都設定啟用
+``` 
+$ chmod 777 initial-setup-ks.cfg 
+```  
+
   * 符號類型改變檔案權限
 ### 系統管理
 ----
