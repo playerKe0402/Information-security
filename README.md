@@ -322,6 +322,7 @@ $ ls -l
     * 可執行(x，execute)，用數字 1 表示
     * 無權限(-)，用數字 0 表示
   將 initial-setup-ks.cfg 的權限改為 -rwxrwx--- ，以數字表示為 :
+  
   owner = rwx = 4+2+1 = 7
   
   group = rwx = 4+2+1 = 7
