@@ -285,33 +285,33 @@ $ tail -f README.md
 * chgrp : 改變檔案所屬群組
 
   被改變的群組名稱必須要在/etc/group檔案內存在才行，否則就會顯示錯誤
-  
-```
-$ chgrp -R 群組名稱 目錄或檔案
-$ chgrp users initial-setup-ks.cfg
-$ ls -l
--rw-r--r--   1   root   users   1864   May 7 15:05 initial-setup-ks.cf
-```
--R : 進行遞迴(recursive)的持續變更，亦即連同次目錄下的所有檔案、目錄都更新成為這個群組之意，常用於變更某一目錄內所有的檔案之情況
+
+  ```
+  $ chgrp -R 群組名稱 目錄或檔案
+  $ chgrp users initial-setup-ks.cfg
+  $ ls -l
+  -rw-r--r--   1   root   users   1864   May 7 15:05 initial-setup-ks.cf
+  ```
+  -R : 進行遞迴(recursive)的持續變更，亦即連同次目錄下的所有檔案、目錄都更新成為這個群組之意，常用於變更某一目錄內所有的檔案之情況
 
 * chown : 改變檔案擁有者
   
    使用者必須是已經存在系統中的帳號，也就是在/etc/passwd 這個檔案中有紀錄的使用者名稱才能改變
 
-將 initial-setup-ks.cfg 的擁有者改為bin這個帳號
-```
-$ chown -R 帳號名稱 目錄或檔案
-$ chown bin initial-setup-ks.cfg
-$ ls -l
--rw-r--r--   1   bin   users   1864   May 7 15:05 initial-setup-ks.cf
-```
-將 initial-setup-ks.cfg 的擁有者與群組改回為root
-```
-$ chown -R 帳號名稱:群組名稱 目錄或檔案
-$ chown root:root initial-setup-ks.cfg
-$ ls -l
--rw-r--r--   1   root   root   1864   May 7 15:05 initial-setup-ks.cf
-```
+   將 initial-setup-ks.cfg 的擁有者改為bin這個帳號
+   ```
+   $ chown -R 帳號名稱 目錄或檔案
+   $ chown bin initial-setup-ks.cfg
+   $ ls -l
+   -rw-r--r--   1   bin   users   1864   May 7 15:05 initial-setup-ks.cf
+   ```
+   將 initial-setup-ks.cfg 的擁有者與群組改回為root
+   ```
+   $ chown -R 帳號名稱:群組名稱 目錄或檔案
+   $ chown root:root initial-setup-ks.cfg
+   $ ls -l
+   -rw-r--r--   1   root   root   1864   May 7 15:05 initial-setup-ks.cf
+   ```
 
 * chmod : 改變檔案的權限
   
