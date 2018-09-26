@@ -346,6 +346,7 @@ $ tail -f README.md
     * 全部的身份，用 a 表示
     
     將 initial-setup-ks.cfg 的權限改為 -rwxrwx--- ，表示為 :
+    
     user(u) = rwx
     
     group(g) = rwx
@@ -355,6 +356,7 @@ $ tail -f README.md
     $ chmod ug=rwx initial-setup-ks.cfg 
     ```
     將 initial-setup-ks.cfg 的權限改為 -rwxr-xr-- ，表示為 :
+    
     user(u) = rwx
     
     group(g) = r-x
