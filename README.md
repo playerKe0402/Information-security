@@ -317,10 +317,10 @@ $ tail -f README.md
   
   權限的設定方法有兩種，分別為數字類型改變檔案權限和符號類型改變檔案權限
   * 數字類型改變檔案權限
-    * 可讀取(r，Readable)，用數字 4 表示    
-    * 可寫入(w，writable)，用數字 2 表示
-    * 可執行(x，execute)，用數字 1 表示
-    * 無權限(-)，用數字 0 表示
+    * 可讀取(r，Readable)，用 4 表示    
+    * 可寫入(w，writable)，用 2 表示
+    * 可執行(x，execute)，用 1 表示
+    * 無權限(-)，用 0 表示
     
     將 initial-setup-ks.cfg 的權限改為 -rwxrwx--- ，以數字表示為 :
   
@@ -340,9 +340,37 @@ $ tail -f README.md
     ```
 
   * 符號類型改變檔案權限
-  
-    |:----:|:----:|:----:|:----:|:----:|
-    |chmod|u/g/o/a|+(加入)/-(刪除)/=(設定)|r/w/x|目錄或檔案|
+    * user，用 u 表示
+    * group，用 g 表示
+    * others，用 o 表示
+    * 全部的身份，用 a 表示
+    
+    將 initial-setup-ks.cfg 的權限改為 -rwxrwx--- ，表示為 :
+    user(u) = rwx
+    
+    group(g) = rwx
+    
+    others(o) = ---
+    ``` 
+    $ chmod ug=rwx initial-setup-ks.cfg 
+    ```
+    將 initial-setup-ks.cfg 的權限改為 -rwxr-xr-- ，表示為 :
+    user(u) = rwx
+    
+    group(g) = r-x
+    
+    others(o) = r--
+    ``` 
+    $ chmod ug=rwx,g=rx,o=r initial-setup-ks.cfg 
+    ``` 
+    不知道檔案屬性，想要增加 initial-setup-ks.cfg 每個人均可寫入的權限
+    ``` 
+    $ chmod a+w initial-setup-ks.cfg 
+    ``` 
+    將可執行權限刪除而不更動其他已存在的權限
+    ``` 
+    $ chmod a-x initial-setup-ks.cfg 
+    ```     
    
 ### 系統管理
 ----
